@@ -36,7 +36,7 @@ h2.center-title{
 
 .input-bar:focus{
     border-radius: 5px 0 0 5px;
-    outline: none;
+
 }
 
 .submit-btn{ 
@@ -68,6 +68,15 @@ h2.center-title{
     
 }
 
+
+.hidden-container{
+    visibility: hidden;
+}
+
+.show-container{
+    visibility: visible;
+}
+
 .grocery-item{
     display: flex;
     width:100%;
@@ -84,7 +93,6 @@ h2.center-title{
     width:100%;
     
 }
-
 .grocery-title{
     line-height: 30%;
     width:100%;
@@ -103,7 +111,24 @@ body{
     background-color: rgb(233, 238, 255);
 }
 
+.clear-btn{
+    
+    margin-top: 1rem;
+    width:10rem;
+    background-color: white;
+    border: none;
+    font-family: arial;
+    font-size: 1.3rem;
+    height: 2rem;
+    border-radius: 5px;
+    text-align: center;
+    color:#be4551
+}
 
+.clear-btn:hover{
+    background-color: #f3f3f3;
+    cursor:pointer;
+}
 
 .alert{
     display: grid;
