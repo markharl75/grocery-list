@@ -1,0 +1,132 @@
+.section-center {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 40rem;
+    margin: 3rem auto;
+    padding: 2rem;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+h2.center-title{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-family: arial;
+    font-size: 2rem;
+}
+
+.input-bar{
+    width: 30rem;
+    height: 100%;
+    margin: 0 auto;
+    padding-left: 1rem;
+    box-sizing:border-box;
+
+    background-color: rgb(235, 239, 253);
+
+    font-size: 1.2rem;
+
+    border-radius: 5px 0 0 5px;
+    border: none;
+}
+
+.input-bar:focus{
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.submit-btn{ 
+    display: block; 
+    margin: 0 auto;
+    width: 6.0rem;
+    height:100%;
+    padding: auto;
+    justify-content: center;
+    align-items: top;
+    border-radius: 0 5px 5px 0;
+    border-color: black;
+    border-left: none; 
+    border: none;
+    font-size: .9rem;
+    background-color: rgb(176, 194, 253);
+    cursor: pointer;
+}
+
+.grocery-list-form{
+    
+    
+}
+
+.input-container{
+    height:2rem;
+    display:flex;
+
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.grocery-item{
+    display: flex;
+    width:100%;
+    height:2rem;
+    margin-top:1rem;
+
+}
+
+.grocery-item:hover{
+    background-color: #f3f3f3;
+}
+
+.grocery-items-container{
+    width:100%;
+    
+}
+
+.grocery-title{
+    line-height: 30%;
+    width:100%;
+    padding-left:1rem;
+    font-family: arial;
+}
+
+.item-btn-container{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    padding-right: 1rem;
+}
+
+body{
+    background-color: rgb(233, 238, 255);
+}
+
+
+
+.alert{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: arial;
+    margin:0;
+    margin-top:.5rem;
+    height: 1.7rem;
+    border-radius: .7rem;
+
+}
+
+.alert-danger{
+    background:rgb(248, 125, 125);
+    color:#721c24;
+}
+
+.alert-success{
+    background:#81f79a;
+    color:#006405
+}
